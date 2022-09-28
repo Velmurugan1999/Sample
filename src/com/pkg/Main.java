@@ -14,7 +14,7 @@ public class Main {
 		list.add(emp2);
 		list.add(emp3);
 		list.add(emp4);
-		
+		//collection
 		Collections.sort(list,(a,b)->{
 			if(a.getId()>b.getId()) {
 				return -1;
