@@ -17,6 +17,8 @@ public class Main {
 		listOfNumbers.parallelStream().forEach(number ->
 		    System.out.println(number + " " + Thread.currentThread().getName())
 		);
+		///The fork/join framework is an implementation of the
+		//ExecutorService interface that helps you take advantage of multiple processors
 	}
 
 }
